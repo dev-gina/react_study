@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import Count from './day01/state/Count';
+// import Sound from './day01/state/Sound';
+import Name from './day01/state/Name';
+import Color from './day01/state/Color';
+// import Container from './day01/props/Container';
+
+
+// 꺽새 사운드 엔터 치면 import 나옴
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Container /> */}
+      {/* <Count /> */}
+      {/* <Sound /> */}
+      {/* <Name /> */}
+      <Color />
+    </>
   );
 }
 

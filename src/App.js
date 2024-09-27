@@ -3,7 +3,11 @@ import React from 'react';
 import GlobalStyle from './global/global';
 import { ThemeProvider } from 'styled-components';
 import theme from './global/theme';
-import AnimalsContainer from './docs/day04/context/expert/AnimalsContainer';
+import CountContainer from './docs/day05/redux/count/CountContainer';
+import FontCountainer from './docs/day05/redux/font/FontCountainer';
+import Counter from './docs/day05/zustand/Counter';
+import Form from './docs/day05/form/Form';
+// import AnimalsContainer from './docs/day04/context/expert/AnimalsContainer';
 // import ParentContainer from './docs/day04/context/normal/ParentContainer';
 // import HomeIcon from './pages/home/HomeIcon';
 // import PowButton from './pages/home/PowButton';
@@ -21,7 +25,11 @@ function App() {
      {/* <CharContainer /> */}
     {/* <ParentContainer /> */}
     {/* <ParentContainer />0*/}
-    <AnimalsContainer />
+    {/* <AnimalsContainer /> */}
+    {/* <CountContainer /> */}
+    {/* <FontCountainer /> */}
+    {/* <Counter /> */}
+    <Form />
     </ThemeProvider>
     </>
   );
